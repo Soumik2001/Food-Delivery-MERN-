@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar img{
+    width: 200px;
+    height: 150px;
+}
