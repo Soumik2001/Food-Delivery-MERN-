@@ -9,9 +9,7 @@
     transition: 0.2s;
     border-radius: 50%;
 }
-.explore-item-list-item img:nth-last-child(1) {
-    width: 550px;
-}
+
 
 .explore-item-list-item p {
     margin-top: 10px;
