@@ -1,0 +1,26 @@
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-item-list-item img {
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+.explore-item-list-item img:nth-last-child(1) {
+    width: 550px;
+}
+
+.explore-item-list-item p {
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-item-list-item .active {
+
+    border: 4px solid tomato;
+    padding: 2px;
+}
